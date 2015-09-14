@@ -1,4 +1,4 @@
 # simple scraper
-from urlib.request import urlopen
+from urllib.request import urlopen
 html = urlopen("http://www.pythonscraping.com/exercises/exercise1.html")
-print(htmo.read())
+print(html.read())
